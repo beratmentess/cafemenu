@@ -1,0 +1,64 @@
+.background-start1 {
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+}
+
+.custom-button {
+  font-size: 20px; /* Buton metin boyutu */
+  font-weight: bold;
+  padding: 30px 30px; /* Buton iç içe boşluk (yükseklik, genişlik) */
+  color: black; /* Metin rengi */
+  background-color: #ccc; /* Arkaplan rengi */
+  border: black; /* Kenarlık yok */
+  border-radius: 100px; /* Kenar yuvarlaklığı */
+}
+.background-second {
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 11, 11, 0.771) 100%,
+    rgba(0, 0, 0, 0.3842787114845938) 100%,
+    rgba(0, 0, 0, 0.6279761904761905) 100%
+  );
+  border-radius: 20px;
+  padding: 7px 40px;
+  color: white;
+}
+.my-image {
+  width: 90px;
+  height: 90px;
+}
+
+.background-start {
+  background: linear-gradient(
+    to bottom,
+    #0f2027,
+    #203a43,
+    #2c5364
+  ); /* Renk geçişli arka plan */
+  min-height: 100vh;
+}
+.logo-image {
+  width: 250px;
+  height: 250px;
+}
+.background-start100 {
+  background: rgb(6, 62, 117);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(6, 62, 117, 0.9136904761904762) 0%,
+    rgba(137, 241, 249, 0.34506302521008403) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(6, 62, 117, 0.9136904761904762) 0%,
+    rgba(137, 241, 249, 0.34506302521008403) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(6, 62, 117, 0.9136904761904762) 0%,
+    rgba(137, 241, 249, 0.34506302521008403) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#063e75",endColorstr="#89f1f9",GradientType=1);
+  min-height: 100vh;
+}
